@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28913" started-at="2020-08-18T17:50:07 EDT" finished-at="2020-08-18T17:50:36 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28913" started-at="2020-08-18T17:50:07 EDT" finished-at="2020-08-18T17:50:36 EDT">
+      <class name="testCases.LoginPageTest">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:testCases.LoginPageTest@7494e528]" name="loginApp" duration-ms="13900" started-at="2020-08-18T17:50:07 EDT" finished-at="2020-08-18T17:50:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:0, instance:testCases.LoginPageTest@7494e528]" name="verifyLoginPageTitle" duration-ms="14925" started-at="2020-08-18T17:50:21 EDT" finished-at="2020-08-18T17:50:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+      </class> <!-- testCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
