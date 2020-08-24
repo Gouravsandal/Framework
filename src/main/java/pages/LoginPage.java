@@ -12,28 +12,22 @@ public class LoginPage {
 		}
 
 	
-	@FindBy(xpath="//a//span[text()='Login']")
-	WebElement login;
 	
-	@FindBy(xpath="//input[@type='email']")
+	
+	@FindBy(xpath="//input[@name='email']")
 	WebElement userName;
 	
-	@FindBy(xpath="//input[@name=' password'] ")
+	@FindBy(xpath="//input[@name='password'] ")
 	WebElement pwd;
 	
-	@FindBy(xpath="//input[@name='commit']")
-	WebElement signIn;
+	@FindBy(xpath="//div[text()='Login']")
+	WebElement logIn;
 	
-	@FindBy(xpath="//div[@class='VfPpkd-RLmnJb']")
-	WebElement next;
-	
-	public void loginToAppln(String uname, String pass) throws InterruptedException {
+		
+	public void loginToAppln(String uname, String pass) {
 		userName.sendKeys(uname);
-		Thread.sleep(2000);
-		next.click();
-		Thread.sleep(2000);
 		pwd.sendKeys(pass);
-		signIn.click();
+		logIn.click();
 		
 	}
 }

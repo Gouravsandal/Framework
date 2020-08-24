@@ -5,5 +5,5 @@
     <classes>
       <class name="testCases.LoginPageTest"/>
     </classes>
-  </test> 
-</suite> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29046" started-at="2020-08-18T18:19:08 EDT" finished-at="2020-08-18T18:19:37 EDT">
+  <suite name="Suite" duration-ms="23090" started-at="2020-08-18T18:37:31 EDT" finished-at="2020-08-18T18:37:54 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29046" started-at="2020-08-18T18:19:08 EDT" finished-at="2020-08-18T18:19:37 EDT">
+    <test name="Test" duration-ms="23090" started-at="2020-08-18T18:37:31 EDT" finished-at="2020-08-18T18:37:54 EDT">
       <class name="testCases.LoginPageTest">
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:testCases.LoginPageTest@64bf3bbf]" name="loginApp" duration-ms="13117" started-at="2020-08-18T18:19:08 EDT" finished-at="2020-08-18T18:19:21 EDT">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:testCases.LoginPageTest@64bf3bbf]" name="loginApp" duration-ms="11434" started-at="2020-08-18T18:37:31 EDT" finished-at="2020-08-18T18:37:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:0, instance:testCases.LoginPageTest@64bf3bbf]" name="verifyLoginPageTitle" duration-ms="15880" started-at="2020-08-18T18:19:21 EDT" finished-at="2020-08-18T18:19:37 EDT">
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:0, instance:testCases.LoginPageTest@64bf3bbf]" name="verifyLoginPageTitle" duration-ms="11616" started-at="2020-08-18T18:37:43 EDT" finished-at="2020-08-18T18:37:54 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->

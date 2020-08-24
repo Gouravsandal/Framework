@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45479" started-at="2020-08-18T18:10:26 EDT" finished-at="2020-08-18T18:11:12 EDT">
+  <suite name="Default suite" duration-ms="9868" started-at="2020-08-24T12:39:43 EDT" finished-at="2020-08-24T12:39:53 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="45479" started-at="2020-08-18T18:10:26 EDT" finished-at="2020-08-18T18:11:12 EDT">
+    <test name="Default test" duration-ms="9868" started-at="2020-08-24T12:39:43 EDT" finished-at="2020-08-24T12:39:53 EDT">
       <class name="testCases.LoginPageTest">
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:testCases.LoginPageTest@7494e528]" name="loginApp" duration-ms="17022" started-at="2020-08-18T18:10:26 EDT" finished-at="2020-08-18T18:10:43 EDT">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.LoginPageTest@64729b1e]" name="setUpSuite" is-config="true" duration-ms="116" started-at="2020-08-24T12:39:43 EDT" finished-at="2020-08-24T12:39:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@64729b1e]" name="setUp" is-config="true" duration-ms="8055" started-at="2020-08-24T12:39:43 EDT" finished-at="2020-08-24T12:39:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:testCases.LoginPageTest@64729b1e]" name="loginApp" duration-ms="821" started-at="2020-08-24T12:39:51 EDT" finished-at="2020-08-24T12:39:52 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:0, instance:testCases.LoginPageTest@7494e528]" name="verifyLoginPageTitle" duration-ms="28387" started-at="2020-08-18T18:10:43 EDT" finished-at="2020-08-18T18:11:12 EDT">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTest@64729b1e]" name="tearDownMethod" is-config="true" duration-ms="296" started-at="2020-08-24T12:39:52 EDT" finished-at="2020-08-24T12:39:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginPageTest.loginApp()[pri:0, instance:testCases.LoginPageTest@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="658" started-at="2020-08-24T12:39:52 EDT" finished-at="2020-08-24T12:39:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testCases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
