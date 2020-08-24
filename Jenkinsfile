@@ -22,6 +22,14 @@ pipeline {
 				}
 			
 				step([$class : 'Publisher', reportFilenamePattern : '**/testng-results.xml'])
+				publishHTML target: [
+            allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportDir: 'Reports',
+            reportFiles: 'FreeCRM.html',
+            reportName: 'Extent Report'
+          ]
 			}
 		}
 	}
